@@ -1,0 +1,35 @@
+{
+  "total_decisions": 2,
+  "breakdown": {
+    "SKIP": 1,
+    "PUBLISH": 1
+  },
+  "confidence": {
+    "avg": 0.95,
+    "min": 0.9,
+    "max": 1.0
+  },
+  "avg_match_similarity": 1.0,
+  "decisions": [
+    {
+      "id": 2,
+      "incoming_text": "Tottenham Hotspur's Lucas Bergvall, \nsuffered a high ankle sprain during the UEFA Champions League match against Borussia Dortmund last Tuesday, \nforcing him off after 63 minutes. Thomas Frank \nrevealed that the injury 'could be a longer one,' however further assessment \nwill take place in the next couple of days, in order to confirm an extended period on the sidelines. \nBergvall saw limited action against West Ham due to prior issues.",
+      "decision": "SKIP",
+      "confidence": 1.0,
+      "reasoning": "The incoming article rehashes the exact same information as the existing coverage, including the injury details, manager's quote, and prior fitness issues. There are no new facts, updates, or contradictions to warrant publication.",
+      "top_match_id": 10,
+      "top_match_similarity": 1.0,
+      "created_at": "2026-02-17 14:36:12.829212+00:00"
+    },
+    {
+      "id": 1,
+      "incoming_text": "Eintracht Frankfurt finalized the transfer for 19-year-old VfL Bochum midfielder Cajetan Lenz this winter transfer window, and he is planned to join in the summer, despite competition from clubs like Bayer Leverkusen. Frankfurt has held recent talks with both the player and Bochum, who are demanded a transfer fee of \u20ac10-15 million, a record sale for Bochum. ",
+      "decision": "PUBLISH",
+      "confidence": 0.9,
+      "reasoning": "The incoming article indicates a status change from 'pursuing' to 'finalized' regarding the transfer of Cajetan Lenz, which is significant new information.",
+      "top_match_id": 1,
+      "top_match_similarity": 1.0,
+      "created_at": "2026-02-17 14:36:07.822406+00:00"
+    }
+  ]
+}

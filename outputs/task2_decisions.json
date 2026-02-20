@@ -1,0 +1,29 @@
+[
+  {
+    "incoming_text": "Eintracht Frankfurt finalized the transfer for 19-year-old VfL Bochum midfielder Cajetan Lenz this winter transfer window, and he is planned to join in the summer, despite competition from clubs like Bayer Leverkusen. Frankfurt has held recent talks with both the player and Bochum, who are demanded a transfer fee of \u20ac10-15 million, a record sale for Bochum. ",
+    "decision": "PUBLISH",
+    "confidence": 0.9,
+    "reasoning": "The incoming article indicates a status change from 'pursuing' to 'finalized' regarding the transfer of Cajetan Lenz, which is significant new information.",
+    "new_information": [
+      "Eintracht Frankfurt finalized the transfer",
+      "he is planned to join in the summer"
+    ],
+    "status_change_detected": true,
+    "top_match_text": "Eintracht Frankfurt is actively pursuing a deal for 19-year-old VfL Bochum midfielder Cajetan Lenz this winter transfer window, with plans for him to join in the summer, amid competition from clubs like Bayer Leverkusen. Frankfurt has held recent talks with both the player and Bochum, who are demanding a transfer fee of \u20ac10-15 million, potentially a record sale for Bochum.",
+    "top_match_similarity": 1.0,
+    "top_match_id": 1,
+    "relevant_matches_count": 1
+  },
+  {
+    "incoming_text": "Tottenham Hotspur's Lucas Bergvall, \nsuffered a high ankle sprain during the UEFA Champions League match against Borussia Dortmund last Tuesday, \nforcing him off after 63 minutes. Thomas Frank \nrevealed that the injury 'could be a longer one,' however further assessment \nwill take place in the next couple of days, in order to confirm an extended period on the sidelines. \nBergvall saw limited action against West Ham due to prior issues.",
+    "decision": "SKIP",
+    "confidence": 1.0,
+    "reasoning": "The incoming article rehashes the exact same information as the existing coverage, including the injury details, manager's quote, and prior fitness issues. There are no new facts, updates, or contradictions to warrant publication.",
+    "new_information": [],
+    "status_change_detected": false,
+    "top_match_text": "Lucas Bergvall, Tottenham Hotspur's Swedish midfielder, suffered a high ankle sprain during the UEFA Champions League match against Borussia Dortmund on Tuesday, forcing him off after 63 minutes. Tottenham manager Thomas Frank stated the injury 'could be a longer one,' with further assessment pending in the next couple of days, confirming a prolonged period on the sidelines. This follows Bergvall's recent unfitness to play significantly against West Ham due to prior issues.",
+    "top_match_similarity": 1.0,
+    "top_match_id": 10,
+    "relevant_matches_count": 1
+  }
+]
